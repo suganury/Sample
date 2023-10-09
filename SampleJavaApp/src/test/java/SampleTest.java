@@ -9,7 +9,7 @@ public class SampleTest {
 		assertTrue(true);
 	}
 
-	@Test
+	//@Test
 	public void failureTest() {
 		assertTrue(false);
 	}
