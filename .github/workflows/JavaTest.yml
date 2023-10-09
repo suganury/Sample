@@ -30,3 +30,11 @@ jobs:
     - name: build and test application
       working-directory: ./SampleJavaApp
       run: ./gradlew build
+
+    - name: save test reports as artifact
+      uses: actions/upload-artifact@v2
+      if: always()
+      with:
+        name: test-reports
+        path: SampleJavaApp/build/reports/tests/test
+    
