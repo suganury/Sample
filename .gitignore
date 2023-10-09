@@ -31,3 +31,5 @@ replay_pid*
 .settings
 
 SampleJavaApp/build
+!gradle-wrapper.jar
+ 

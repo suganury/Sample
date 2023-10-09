@@ -27,10 +27,6 @@ jobs:
       working-directory: ./SampleJavaApp
       run: chmod +x gradlew
 
-    - name: gradlew wrapper
-      working-directory: ./SampleJavaApp
-      run: ./gradlew wrapper
-
     - name: build and test application
       working-directory: ./SampleJavaApp
       run: ./gradlew build
