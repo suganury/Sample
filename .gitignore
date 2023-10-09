@@ -29,3 +29,7 @@ replay_pid*
 .project
 .classpath
 .settings
+
+SampleJavaApp/build
+!gradle-wrapper.jar
+ 
